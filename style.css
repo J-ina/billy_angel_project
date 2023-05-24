@@ -36,13 +36,13 @@
 #slide_banner > .btn_banner_prev:hover > img {left: 15px;}
 #slide_banner > .btn_banner_next:hover > img {left: 35px;}
 
-#slide_banner > .banner_img {
+#slide_banner > .banner {
   position: relative;
   left: 0;
   width: 300%;
   transition: all 0.5s;
 }
-#slide_banner > .banner_img > li {float: left;}
+#slide_banner > .banner > li {float: left;}
 
 /* best_items */
 #best_items {

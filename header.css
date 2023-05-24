@@ -33,6 +33,7 @@ header {
   transition: all 3s;
 }
 .gnb .logo img:hover {transform: rotateX(-360deg);}
+.gnb .fake_box {height: 90px;}
 
 /* lnb */
 .gnb .lnb {margin: 10px 0 20px;}
@@ -48,7 +49,7 @@ header {
   top: 70px; left: 50%;
   transform: translateX(-50%);
   z-index: -1;
-  width: 100%; height: 11px;
+  width: 100%; height: 110px;
   max-height: 0;
   background-color: #fff;
   border-bottom: #f6c9c9 1px solid;
