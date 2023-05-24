@@ -1,12 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>빌리엔젤 케이크 컴퍼니</title>
+  <!-- 구글 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <!-- 네이버 폰트 -->
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-myeongjo.css" rel="stylesheet">
+  <!-- 외부정의 CSS -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- 폰트 어썸 -->
+  <script src="https://kit.fontawesome.com/307bbd1680.js" crossorigin="anonymous"></script>
+  <!-- 외부정의 JS -->
+
+
 </head>
 <body>
-    
+  <!-- header -->
+  <header>
+    <!-- gnb -->
+    <div class="gnb_container">
+      <ul class="gnb clear">
+        <li>
+          <a href="#">케이크 배송</a>
+          <ul class="lnb">
+            <li><a href="#">홀케이크</a></li>
+            <li><a href="#">스페셜케이크</a></li>
+            <li><a href="#">세트상품</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">케이크 픽업</a>
+        </li>
+        <li>
+          <a href="#">파티용품</a>
+          <ul class="lnb">
+            <li><a href="#">데코용품</a></li>
+            <li><a href="#">악세서리</a></li>
+            <li><a href="#">파티세트</a></li>
+          </ul>
+        </li>
+        <li class="logo">
+          <a href="index.html"><img src="img/logo_billyangel.png" alt="Billy_Angel"></a>
+        </li>
+        <li>
+          <a href="#">마카롱</a>
+          <ul class="lnb">
+            <li><a href="#">낱개상품</a></li>
+            <li><a href="#">세트상품</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">TEA</a>
+          <ul class="lnb">
+            <li><a href="#">크리스틴다트너</a></li>
+            <li><a href="#">T2</a></li>
+            <li><a href="#">타우</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">브랜드 굿즈</a>
+          <ul class="lnb">
+            <li><a href="#">빌리엔젤</a></li>
+            <li><a href="#">평화다방</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="bg_lnb"></div>
+    </div>
+    <!-- snb -->
+    <div class="snb_container">
+      <i class="fa-solid fa-bars"></i>
+      <aside>
+        <div class="btn_close"><i class="fa-solid fa-xmark"></i></div>
+        <ul class="snb">
+          <li><a href="#">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">장바구니</a></li>
+          <li><a href="#">배송조회</a></li>
+          <li><a href="#">비회원 주문</a></li>
+        </ul>
+        <ul class="snb_icon clear">
+          <li><a href="#">
+            <img src="img/download_btn.png" alt="App_Download_Button">
+            <p>APP DOWN</p>
+          </a></li>
+          <li><a href="#">
+            <img src="img/talk_btn.png" alt="Kakao_Talk_Customer_Service_Button">
+            <p>카톡 상담</p>
+          </a></li>
+        </ul>
+      </aside>
+    </div>
+  </header>
+
+  <!-- slide_banner -->
+  <div class="bg_banner"></div>
+  <section id="slide_banner">
+    <div class="btn_banner_prev"><img src="img/prev.png" alt="Banner_Prev_Button"></div>
+    <div class="btn_banner_next"><img src="img/next.png" alt="Banner_Next_Button"></div>
+    <ul class="banner_img clear">
+      <li><a href="#"><img src="img/banner1.png" alt="Rainbow_Crepe_Cake"></a></li>
+      <li><a href="#"><img src="img/banner2.png" alt="Carrot_Cake"></a></li>
+      <li><a href="#"><img src="img/banner3.png" alt="Welcome_Event"></a></li>
+    </ul>
+  </section>
+
+  <!-- best_items -->
+  <section id="best_items">
+    <div class="title_best">BEST CAKES</div>
+    <ul class="item_list clear">
+      <li>
+        <a href="#"><img class="img_best" src="img/best_1.jpg" alt="Carrot_Cake"></a>
+        <img src="img/best_deco.png" alt="Decoration_Image">
+        <h6>Carrot Cake</h6>
+        <p>당근 케이크</p>
+      </li>
+      <li>
+        <a href="#"><img class="img_best" src="img/best_2.jpg" alt="Milk_Crepe_Cake"></a>
+        <img src="img/best_deco.png" alt="Decoration_Image">
+        <h6>Milk Crepe Cake</h6>
+        <p>밀크 크레이프 케이크</p>
+      </li>
+      <li>
+        <a href="#"><img class="img_best" src="img/best_3.jpg" alt="Red_Velvet_Cake"></a>
+        <img src="img/best_deco.png" alt="Decoration_Image">
+        <h6>Red Velvet Cake</h6>
+        <p>레드 벨벳 케이크</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- service -->
+  <section id="service">
+    <!-- delivery-->
+    <div class="delivery bg_service">
+      <div class="bg_service_title"></div>
+      <h5>Cake Delivery Service</h5>
+      <p class="service_description">
+        당일 오후 4시까지 주문하면 다음날 케이크가 집앞으로!<br>
+        맛과 신선도를 위해 아이스박스에 아이스팩과<br>
+        드라이아이스를 동봉하여 안전하게 배송해드립니다.<br>
+        월~토요일까지 주 6일 수령 가능합니다.<br>
+        <b>* 공휴일 및 일요일 수령 불가능</b>
+      </p>
+      <div class="img_service"><img src="img/strawberry_cake.png" alt="Fresh_Strawberry_Cake"></div>
+    </div>
+    <!-- pick_up -->
+    <div class="pick_up bg_service">
+      <div class="bg_service_title"></div>
+      <h5>Store Pick-up Service</h5>
+      <p class="service_description">
+        빌리엔젤의 다양한 케이크를 미리 예약해서<br>
+        특별한 날을 더 특별하게 만들어보세요.<br>
+        홀케이크 픽업서비스 예약 시 10% 적립!<br>
+        홀케이크 픽업 서비스는 3일 전 예약 부탁드립니다.<br>
+        <b>* 당일 예약 및 1일 전 예약은 자동 취소됩니다.</b>
+      </p>
+      <div class="img_service"><img src="img/chocolat_bonbon.png" alt="Chocolat_Bonbon"></div>
+    </div>
+  </section>
+
+  <!-- sub_items -->
+  <section id="sub_items">
+    <div class="title_sub_items"><hr></div>
+    <!-- category -->
+    <div class="category clear">
+      <div class="sub_item party_supplies">
+        <div class="category_img_wrap"><img src="img/party.png" alt="Party_Supplies"></div>
+        <h5>PARTY<br>SUPPLIES</h5>
+      </div>
+      <div class="sub_item macarons">
+        <div class="category_img_wrap"><img src="img/macaron.png" alt="Macarons"></div>
+        <h5>MACARONS</h5>
+      </div>
+      <div class="sub_item teas">
+        <div class="category_img_wrap"><img src="img/tea.png" alt="Teas"></div>
+        <h5>TEAS</h5>
+      </div>
+    </div>
+    <!-- goods -->
+    <div class="goods clear">
+      <div class="bg_goods"><img src="img/badge.png" alt="Badges"></div>
+      <div class="txt_goods">
+        <img src="img/goods_logo.png" alt="Original_Goods">
+        <p>
+          뱃지, 에코백, 노트 등<br>
+          빌리엔젤의 다양한<br>
+          오리지널 굿즈를 만나보세요
+        </p>
+      </div>
+      <div class="btn_more_goods"><a href="#">
+        More Original Goods <i class="fa-solid fa-caret-right"></i>
+      </a></div>
+    </div>
+  </section>
+
+  <!-- CS -->
+  <section id="cs" class="clear">
+    <div class="txt_cs">
+      <h3>Customer Service</h3>
+      <p class="cs_info">
+        빌리엔젤 카카오톡 1:1채팅 문의<br>
+        빌리엔젤 카카오채널을 추가하고 쇼핑몰 전문 상담원과 1:1채팅으로 더 쉽고 빠르게 문의해보세요.
+      </p>
+      <p class="cs_time">
+        <b>월요일 - 금요일</b> (공휴일 휴무)<br>
+        <b>오전 10시 - 오후 6시</b> (브레이크 타임 : 오후 1시 - 오후 2시)
+      </p>
+    </div>
+    <div class="kakao_talk">
+      <a href="#"><img src="img/talk.png" alt="Kakao_Talk_Customer_Service_Button"></a>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="bg_fnb">
+      <div class="fnb_wrap">
+        <ul class="fnb clear">
+          <li><a href="#">빌리엔젤 소개</a></li>
+          <li><a href="#">빌리엔젤 공식 오피셜 사이트</a></li>
+          <li><a href="#">매장안내</a></li>
+          <li><a href="#">인재채용</a></li>
+          <li><a href="#">창업문의하기</a></li>
+          <li><a href="#">평화다방</a></li>
+          <li><a href="#">프레시메이트</a></li>
+          <li><a href="#">GRANIX</a></li>
+        </ul>
+        <ul class="sns_icon clear">
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy clear">
+      <p>
+        (주)그래닉스 / GRANIX<br>
+        사업자등록번호 000-00-00000 대표자 OOO<br>
+        서울지사 : 서울 강남구 강남대로 00길 00
+      </p>
+      <p>
+        이용약관 &#9474; 개인정보처리방침<br>
+        통신판매업신고번호 제 0000-경기군포-0000호<br>
+        군포본사 : 경기도 군포시 공단로 000번길 00
+      </p>
+      <p>
+        Copyright &copy; Ina Jeon All rights reserved.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
