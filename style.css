@@ -19,7 +19,6 @@
 #slide_banner > .btn_banner_next {
   position: absolute;
   top: 50%;
-  z-index: 1;
   width: 50px; height: 50px;
   transform: translateY(-50%);
   cursor: pointer;
@@ -39,6 +38,7 @@
 #slide_banner > .banner {
   position: relative;
   left: 0;
+  z-index: -1;
   width: 300%;
   transition: all 0.5s;
 }
